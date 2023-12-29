@@ -1,4 +1,5 @@
 import java.util.Locale;
+import java.util.Scanner;
 
 public class Main {
     public static void main(String[] args) {
@@ -32,6 +33,14 @@ public class Main {
         System.out.printf("%s , witch the price is %f\n", product2 , price2);
 
         System.out.printf("Record: %d years old, code %d and gender %c\n", ageF , code , gender);
+
+
+        Scanner sc = new Scanner(System.in);
+
+        String g;
+        g = sc.next();
+        System.out.println("Typed");;
+        sc.close();
 
     }
 
