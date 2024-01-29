@@ -9,7 +9,7 @@ public class forClass {
 
         for (int i=0 ; i < nigg  ; i++ ){
             int x = sc.nextInt();
-            soma = soma +1 ;
+            soma = soma + x ;
 
         }
         System.out.println(soma);
